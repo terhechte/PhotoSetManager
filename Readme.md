@@ -3,7 +3,7 @@ PhotoSetManager
 
 ## Group loads of pictures based on metadata
 
-![Screenshot](/resources/icon.png)
+![Screenshot](/binary/icon.png)
 
 This is an early version of an app that I oftentimes wished I had but never found the right solution for. It should let you group huge amounts of images based on various image metadata like the camera that was used, where it was taken or when it was taken. Currently, only support for grouping by camera works.
 
@@ -26,7 +26,7 @@ This code was written really fast and sloppily, but it still works well.
 
 ## There's a binary here:
 
-[Download Argh 0.1.0](/binary/PhotoSetManager-0.1.0.zip)
+[Download PhotoSetManager 0.1.0](https://github.com/terhechte/PhotoSetManager/raw/master/binary/PhotoSetManager-0.1.0.zip)
 
 ## Todo
 - Add support for sorting by more metadata fields
