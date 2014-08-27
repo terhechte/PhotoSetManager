@@ -12,6 +12,12 @@
 		4D10E1FD19AB2FE700585C4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D10E1FC19AB2FE700585C4F /* Images.xcassets */; };
 		4D10E20019AB2FE700585C4F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D10E1FE19AB2FE700585C4F /* MainMenu.xib */; };
 		4D10E20C19AB2FE700585C4F /* PhotoSetManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D10E20B19AB2FE700585C4F /* PhotoSetManagerTests.m */; };
+		4D10E21719AB300400585C4F /* PhotoSetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D10E21619AB300400585C4F /* PhotoSetModel.m */; };
+		4D10E21A19AB3BA400585C4F /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D10E21919AB3BA400585C4F /* PhotoController.m */; };
+		4D10E21D19AB412E00585C4F /* PhotoSetGrouper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D10E21C19AB412E00585C4F /* PhotoSetGrouper.m */; };
+		4D10E21F19AB499500585C4F /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D10E21E19AB499500585C4F /* Quartz.framework */; };
+		4D2E74CF19AB732800A3ED9D /* PhotoViewerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E74CD19AB732800A3ED9D /* PhotoViewerWindow.m */; };
+		4D2E74D019AB732800A3ED9D /* PhotoViewerWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2E74CE19AB732800A3ED9D /* PhotoViewerWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,16 @@
 		4D10E20519AB2FE700585C4F /* PhotoSetManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSetManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D10E20A19AB2FE700585C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D10E20B19AB2FE700585C4F /* PhotoSetManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoSetManagerTests.m; sourceTree = "<group>"; };
+		4D10E21519AB300400585C4F /* PhotoSetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSetModel.h; sourceTree = "<group>"; };
+		4D10E21619AB300400585C4F /* PhotoSetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSetModel.m; sourceTree = "<group>"; };
+		4D10E21819AB3BA400585C4F /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoController.h; sourceTree = "<group>"; };
+		4D10E21919AB3BA400585C4F /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
+		4D10E21B19AB412E00585C4F /* PhotoSetGrouper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSetGrouper.h; sourceTree = "<group>"; };
+		4D10E21C19AB412E00585C4F /* PhotoSetGrouper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSetGrouper.m; sourceTree = "<group>"; };
+		4D10E21E19AB499500585C4F /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		4D2E74CC19AB732800A3ED9D /* PhotoViewerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewerWindow.h; sourceTree = "<group>"; };
+		4D2E74CD19AB732800A3ED9D /* PhotoViewerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewerWindow.m; sourceTree = "<group>"; };
+		4D2E74CE19AB732800A3ED9D /* PhotoViewerWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoViewerWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D10E21F19AB499500585C4F /* Quartz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +75,7 @@
 		4D10E1E919AB2FE700585C4F = {
 			isa = PBXGroup;
 			children = (
+				4D10E21E19AB499500585C4F /* Quartz.framework */,
 				4D10E1F419AB2FE700585C4F /* PhotoSetManager */,
 				4D10E20819AB2FE700585C4F /* PhotoSetManagerTests */,
 				4D10E1F319AB2FE700585C4F /* Products */,
@@ -81,6 +99,15 @@
 				4D10E1FC19AB2FE700585C4F /* Images.xcassets */,
 				4D10E1FE19AB2FE700585C4F /* MainMenu.xib */,
 				4D10E1F519AB2FE700585C4F /* Supporting Files */,
+				4D10E21519AB300400585C4F /* PhotoSetModel.h */,
+				4D10E21619AB300400585C4F /* PhotoSetModel.m */,
+				4D10E21819AB3BA400585C4F /* PhotoController.h */,
+				4D10E21919AB3BA400585C4F /* PhotoController.m */,
+				4D10E21B19AB412E00585C4F /* PhotoSetGrouper.h */,
+				4D10E21C19AB412E00585C4F /* PhotoSetGrouper.m */,
+				4D2E74CC19AB732800A3ED9D /* PhotoViewerWindow.h */,
+				4D2E74CD19AB732800A3ED9D /* PhotoViewerWindow.m */,
+				4D2E74CE19AB732800A3ED9D /* PhotoViewerWindow.xib */,
 			);
 			path = PhotoSetManager;
 			sourceTree = "<group>";
@@ -192,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D10E1FD19AB2FE700585C4F /* Images.xcassets in Resources */,
+				4D2E74D019AB732800A3ED9D /* PhotoViewerWindow.xib in Resources */,
 				4D10E20019AB2FE700585C4F /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +240,10 @@
 			files = (
 				4D10E1FB19AB2FE700585C4F /* AppDelegate.m in Sources */,
 				4D10E1F819AB2FE700585C4F /* main.m in Sources */,
+				4D2E74CF19AB732800A3ED9D /* PhotoViewerWindow.m in Sources */,
+				4D10E21D19AB412E00585C4F /* PhotoSetGrouper.m in Sources */,
+				4D10E21A19AB3BA400585C4F /* PhotoController.m in Sources */,
+				4D10E21719AB300400585C4F /* PhotoSetModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +360,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PhotoSetManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -339,6 +372,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PhotoSetManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -398,6 +432,7 @@
 				4D10E21119AB2FE700585C4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D10E21219AB2FE700585C4F /* Build configuration list for PBXNativeTarget "PhotoSetManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +441,7 @@
 				4D10E21419AB2FE700585C4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
